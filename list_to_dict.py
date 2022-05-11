@@ -1,6 +1,6 @@
 # change list to dict
 x = [1,2,3,4,5,2,1,6,5]
-# print({i : x[i] for i in range(len(x))})
+print({i : x[i] for i in range(len(x))})
 
 
 # change list to dict with zip
