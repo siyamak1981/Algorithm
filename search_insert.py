@@ -5,8 +5,8 @@ def foo(x, key):
         if key == x[i]:
             print(i)
         
-    return -1
-# print(foo([1,2,3,4,5,2,1], 13))
+    return False
+print(foo([1,2,3,4,5,2,1], 3))
 
 
 
@@ -34,7 +34,6 @@ def foo(x, key):
             # first = 4
             # first = 5
             # -----------------
-     
         else:
             mid -= 1
             # mid = 1
@@ -43,6 +42,22 @@ def foo(x, key):
             # last = 1
             # last = 0
     print(first)
-# foo([10,20,30,40,50], 20)
+foo([10,20,30,40,50], 20)
 
 
+
+
+# In [11]: def foo(x, y):
+#     ...:     for i in range(len(x)):
+#     ...:         if y == x[i]:
+#     ...:             return i
+#     ...:         elif y > max(x):
+#     ...:             x.append(y)
+#     ...:             print(x)
+#     ...:         else:
+#     ...:             if y < min(x):
+#     ...:                 x.append(y)
+#     ...:                 x = sorted(x)
+#     ...:                 print(x)
+#     ...: foo([1,2,3,4,5,2,1], 0)
+# [0, 1, 1, 2, 2, 3, 4, 5]

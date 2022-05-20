@@ -28,3 +28,10 @@ for i in List:
         print("its out of range")
 
 
+# x = [[1, 4, 16, 64],[2,3,4, 1],[3, 6, 9, 12]]
+# for i in x:
+#     y = i[0]
+#     for j in i:
+#         if y < j:
+#             y = j
+#     print(y)

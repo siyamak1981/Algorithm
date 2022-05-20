@@ -31,6 +31,7 @@ def burt_force(string):
 
     while key <= len(alpha):
         result = decrypt(string, key)
+
         brute_force_data[key] = result
         result = ''
         key +=1

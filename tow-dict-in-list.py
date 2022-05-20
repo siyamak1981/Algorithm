@@ -1,12 +1,12 @@
 x  = [{1:2},{3:5}]
-y = {}
+dict = {}
 for i in x:
     for j in i:
-        y[j] = i[j]
-print(y)
+        dict[j] = i[j]
+print(dict)
 # output
 # {1: 2, 3: 5}
-
+# --------------------------------------------
 
 # sparate a str with 2 distance in a list
 x = "dorodhdt"
@@ -16,10 +16,22 @@ for i in range(0, len(x), 2):
     p = x[i] + x[i + 1]
     y.append(p)
 print(y)
-  
+# output
+# ['do', 'ro', 'dh', 'dt']
+# --------------------------------------
+
+x = "siyamak"
+y = []
+for i in range(0, len(x), 2):
+    p = x[i: i+2]
+    y.append(p)
+print(y)
+# another way
+x = [x[i:i + 2] for i in range(0, len(2), 2)]
+# ['si', 'ya', 'ma', 'k']
+# -------------------------------------------------
 
 # median test japan
-
 x = [2,3,4,5,6,7,8,1]
 for i in range(len(x)):
     key = x[i]
