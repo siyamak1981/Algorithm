@@ -1,19 +1,19 @@
 x = [1,2,3,4,5]
 
-# def foo(list, max = None, min = None):
-#     l = []
-#     if min:
-#         for i in x:
-#             if i >= min:
-#                 l.append(i)
+def foo(list, max = None, min = None):
+    l = []
+    if min:
+        for i in x:
+            if i >= min:
+                l.append(i)
                 
-#     if max:
-#         for i in x:
-#             if i <= max:
-#                 l.append(i)
+    if max:
+        for i in x:
+            if i <= max:
+                l.append(i)
                 
-#     print(l)
-# foo(x, max = 3, min = 3)
+    print(l)
+foo(x, max = 3, min = 3)
 
 
 
@@ -24,3 +24,4 @@ def foo(list, max = None, min = None):
     print ([i for i in list if (min_val(i)) and max_val(i)])
 foo([1,2,3,4,5,6], max = 3, min = 3)
 
+# 

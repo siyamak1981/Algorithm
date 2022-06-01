@@ -14,3 +14,11 @@ foo(list)
 # arangment in dict
 # c = {'a':55, 'b':2, 'g':3, 'c': 4, 'c':4,'g':5, 'a':1}
 # print(c)
+
+x = ['a','b','c','b','d','m','n','n', 'n']
+y = range(len(x))
+dict = {}
+for i in range(len(x)):
+        dict[y[i]] = x[i]
+print(dict)
+ 

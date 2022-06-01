@@ -5,8 +5,8 @@ def foo(x, key):
         if key == x[i]:
             print(i)
         
-    return False
-print(foo([1,2,3,4,5,2,1], 3))
+    return (f"key {key}")
+print(foo([1,2,3,4,5,2,1], 354))
 
 
 
@@ -14,9 +14,10 @@ print(foo([1,2,3,4,5,2,1], 3))
 def foo(x, key):
     first = 0
     last = len(x) - 1
-    mid = last // 2
+    # mid = last // 2
     # mid = 2
     while first <= last:
+        mid =first +  (last - first) // 2
         if key > x[mid]:
             # 60 > 30
             # 60 > 40
@@ -42,7 +43,7 @@ def foo(x, key):
             # last = 1
             # last = 0
     print(first)
-foo([10,20,30,40,50], 20)
+foo([5,6,7,7,8,8,8,9,9,10],8)
 
 
 

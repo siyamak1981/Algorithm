@@ -6,3 +6,7 @@ media
 ./media
 /media
 media/
+ystemctl
+./ystemctl
+ystemctl/
+/ystemctl/
