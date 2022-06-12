@@ -20,3 +20,13 @@ def last_accurance(string, key):
     print(first)
 
 print(last_accurance([1,2,2,3,3,3,4,4,5,6],31))
+
+
+
+def foo(x, key):
+    count = 0
+    for i in range(len(x)):
+        if x[i]<= key:
+            count += 1
+    return count
+print(foo([1,2,3,4,6,8,10], 7))

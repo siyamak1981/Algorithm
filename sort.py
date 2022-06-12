@@ -19,7 +19,7 @@ for i in range(len(l)):
 print(l)
 
 # ---------------------------------------
-
+# Bubble Sort. 
 x = True
 while x:
     x = False

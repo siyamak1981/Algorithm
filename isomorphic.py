@@ -23,7 +23,7 @@ def is_isomorphic(x, y):
             else:
                 if dict[(x[i])] != y[i]:
                     return(False)
-                
+
         # return(dict, set_values)
         return(True)
 

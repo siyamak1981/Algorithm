@@ -13,7 +13,10 @@
 <script>
 
 var x = new Array("siyamak", "saed", "ali", "sami")
-var y = Boolean
-document.getElementById("demo").innerHTML =Array.isArray(y)
+document.getElementById("demo").innerHTML = x instanceof Array;
+// document.getElementById("demo").innerHTML =isArray(x)
+// function isArray(value){
+//     return value.constructor.toString().indexOf("Array") > -1;
+// }
 </script>
 </html>

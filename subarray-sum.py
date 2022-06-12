@@ -25,21 +25,21 @@ sum_ = 23
 subArraySum(arr, n, sum_)
 # ------------------------------------------------------
 x = [15, 2, 4, 8, 9, 5, 10, 23]
-for i in range(len(x)):
-    sum = 23
-    y = i + 1
-    while i <= len(x):
-        if x[i] == sum:
-            print(f"sum found {i, y - 1}")
+# for i in range(len(x)):
+#     sum = 23
+#     y = i + 1
+#     while i <= len(x):
+#         if x[i] == sum:
+#             print(f"sum found {i, y - 1}")
 
 
-        if x[i] > sum or y == len(x):
-            x[i] = x[i] - x[y]
+#         if x[i] > sum or y == len(x):
+#             x[i] = x[i] - x[y]
         
-        x[i] = x[i] + x[y]
-        y +=1
+#         x[i] = x[i] + x[y]
+#         y +=1
 
-print("no")
+# print("no")
 # ------------------------------------------------------------
 """
 [2, 7, 3, 5, 9, 4] , 10 =>[1, 2]
